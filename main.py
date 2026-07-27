@@ -89,9 +89,7 @@ async def intro(name: str):
         f"Comms are dead. A magnetic storm fried everything. You are entirely alone, and the shadows of corrupted droids are starting to move around the crash site.\n\n"
         f"You have only two choices: scavenge, fight, and build the distress beacon... or let the red dust cover your bones forever.\n\n"
         f"Survival protocol initiated.. Good luck, Astronaut {name}."
-        ""
-        ""
-        f"[YOU NEED TO GET 3 XP TO GET CREDITS]"
+
     )
     
     # تشغيل تأثير الكتابة
@@ -164,7 +162,7 @@ async def game():
         # شريط الموارد (Iron, Crystal, Credits, Tools)
         with ui.row().classes('w-full items-center justify-between text-base'):
             ui.label('📊 INVENTORY').classes('text-lg font-bold text-cyan-400')
-            
+            ui.label('[YOU NEED TO GET TO XP 3 TO SART CRIDET').classes('text-2xl font-bold text-red-400')
             with ui.row().classes('items-center gap-6'):
 
                 with ui.row().classes('items-center gap-1'):
