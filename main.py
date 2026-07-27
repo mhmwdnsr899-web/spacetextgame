@@ -89,6 +89,7 @@ async def intro(name: str):
         f"Comms are dead. A magnetic storm fried everything. You are entirely alone, and the shadows of corrupted droids are starting to move around the crash site.\n\n"
         f"You have only two choices: scavenge, fight, and build the distress beacon... or let the red dust cover your bones forever.\n\n"
         f"Survival protocol initiated.. Good luck, Astronaut {name}."
+        f"[YOU NEED TO GET 3 XP TO GET CREDITS]"
     )
     
     # تشغيل تأثير الكتابة
