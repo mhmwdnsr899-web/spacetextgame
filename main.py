@@ -101,11 +101,11 @@ with start.classes('w-full bg-slate-900/90 border border-cyan-500/30 rounded-2xl
     name=ui.input("Enter your name:")
     ui.button("START",color='red',on_click=lambda: game()).classes('text-3xl')
 game_state = {
-    'health': 10,     
+    'health': 100,     
     'oxygen': 100,
-    'iron': 1000,
-    'crystal': 1000,
-    'credits': 1000,
+    'iron': 0,
+    'crystal': 0,
+    'credits': 0,
     'Tools': [],
     'beacon_parts':0,
     'XP_level': 1.0,
