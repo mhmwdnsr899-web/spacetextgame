@@ -2,6 +2,7 @@ from nicegui import ui,app
 import asyncio
 import random
 import time
+import os
 
 from nicegui import ui
 async def delay():
@@ -596,5 +597,5 @@ async def fight():
 
 
 
-
-ui.run(reload=False)
+port = int(os.environ.get('PORT', 8080))
+ui.run(host='0.0.0.0', port=port, reload=False)
